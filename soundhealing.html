@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Global Site Tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-107938094-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+gtag('set', {'user_id': 'USER_ID'}); // Set the user ID using signed-in user_id.
+  gtag('config', 'UA-107938094-1');
+</script>
+  <title>Healing Hut</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+  <style>
+  
+  /*very top carousel advertisement*/
+		  .slider {
+		  background-color: #fffbe2;
+		  font-size:11px;
+		  text-align: center;
+		  line-height:40px;
+		  max-width: 100%;
+		  height: 40px;
+		  margin: 0px auto;
+		  position: relative;
+		}
+		.slide1,.slide2,.slide3,.slide4,.slide5 {
+		  position: absolute;
+		  width: 100%;
+		  height: 100%;
+		}
+		.slide1 {
+		  background: url(.jpg)no-repeat center;
+			  background-size: cover;
+			animation:fade 8s infinite;
+		-webkit-animation:fade 8s infinite;
+
+		} 
+		.slide2 {
+		  background: url(.jpeg)no-repeat center;
+			  background-size: cover;
+			animation:fade2 8s infinite;
+		-webkit-animation:fade2 8s infinite;
+		}
+		.slide3 {
+			background: url(.jpg)no-repeat center;
+			  background-size: cover;
+			animation:fade3 8s infinite;
+		-webkit-animation:fade3 8s infinite;
+		}
+		@keyframes fade
+		{
+		  0%   {opacity:1}
+		  33.333% { opacity: 0}
+		  66.666% { opacity: 0}
+		  100% { opacity: 1}
+		}
+		@keyframes fade2
+		{
+		  0%   {opacity:0}
+		  33.333% { opacity: 1}
+		  66.666% { opacity: 0 }
+		  100% { opacity: 0}
+		}
+		@keyframes fade3
+		{
+		  0%   {opacity:0}
+		  33.333% { opacity: 0}
+		  66.666% { opacity: 1}
+		  100% { opacity: 0}
+		}
+/*top banner advertisement end*/
+
+
+
+
+
+
+hr.style18 { 
+  height: 30px; 
+  margin-left:5%;
+  margin-right:5%;
+  border-style: solid; 
+  border-color: #999; 
+  border-width: 1px 0 0 0; 
+  border-radius: 40px; 
+} 
+hr.style18:before { 
+  display: block; 
+  content: ""; 
+  height: 30px; 
+  margin-top: -31px; 
+  border-style: solid; 
+  border-color: #999; 
+  border-width: 1px 0 1px 0; 
+  border-radius: 49px; 
+}
+
+
+
+
+
+  /*facebook button*/
+					.fa {
+		  padding: 5px;
+		  font-size: 20px;
+		  width: 30px;
+		  height:30px;
+		  text-align: center;
+		  
+		  margin: 8px 7px;
+		  
+		}
+
+		.fa:hover {
+			opacity: 0.7;
+		}
+
+		.fa-facebook {
+		  background: #3B5998;
+		  color: white;
+		}
+
+
+
+
+
+
+
+
+
+h1 {
+  font-family: 'Cinzel', serif;
+  font-size: 5.0em;
+  color: #111;
+  margin: 10px;
+  padding: 10px;
+  max-width: 900px;
+  margin: auto;
+  
+}
+
+/**********Main Image***********/
+.img-align {
+  display: block;
+  margin: 0px auto;
+}
+
+.main {
+  width: 512px;
+  height: 288px;
+}
+
+
+
+
+
+/*******paragraph image********/
+.smaller-img {
+  width: 250px;
+  height: 175px;
+  float: right;
+  padding: 0px 20px 20px 20px;
+  margin-left: 20px;
+}
+
+
+
+
+@font-face {
+    font-family: papyrus;
+    src: url(fonts/papyrus); format('truetype');
+	
+}
+
+
+div{
+font-family: Papyrus;
+font-weight: bold;
+font-size: 110%;}
+
+
+
+				
+				.navbar  {
+    margin-bottom: 0;
+}
+
+
+/*background fixed image*/
+section {
+  width: 100%;
+  height: 100%;
+  background-position:50% 100%;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom:0%;
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+section:nth-of-type(1) {
+  background-image: url('images/suntrees.jpg')
+}
+
+
+/* For width 400px and larger: */
+@media only screen and (min-width: 400px) {
+    section { 
+        background-image: url('images/suntrees.jpg'); 
+    }
+}
+/* For width 400px and smaller: */
+@media only screen and (max-width: 100px) {
+    section { 
+        background-image: url('images/suntrees.jpg'); 
+		background-size: 50%;
+    }
+}
+/*end fixed image*/
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: papyrus;
+    src: url(fonts/papyrus); format('truetype');
+	
+}
+
+
+div{
+font-family: Papyrus;
+font-weight: bold;
+font-size: 110%;}
+
+
+
+				
+				.navbar  {
+    margin-bottom: 0;
+	
+}
+
+
+
+
+
+
+topnavbar {
+    margin: 0;
+}
+#topnavbar.affix {
+    position: absolute;
+    top: 0;
+    width: 100%;
+	
+	
+	
+}
+
+#banner {
+     background-color: #adad85;
+	 width: 100%;
+	 
+}
+img{
+ margin: center;
+    width: 14%;
+	  display: block;
+    margin-left: auto;
+    margin-right: auto; 
+   
+    padding: 2px;}
+	
+
+	
+	.text-center {
+  font-family: "times new roman";
+  color: white;
+  font-weight: normal;
+  font-size:18px;
+  padding-top:0.5px;
+  line-height: 2;
+   margin-left: auto;
+  margin-right: auto;
+  max-width:85%;
+  text-align: center;
+}
+
+
+
+
+
+.main-body {
+
+  background-color: #333;
+  margin-left: auto;
+  margin-top: 2%;
+  margin-right: auto;
+  max-width: 100%;
+  margin-bottom: 2%;
+  border-color: white;
+  border-width: 2px;
+  border-style: groove;
+  
+}
+
+
+
+
+
+
+  /*image gallery */
+h1{
+  font-family: papyrus;
+  font-size:50px;
+  text-align:center;
+  color:white;
+  font-weight: bold;
+  padding:1%;
+}
+#gallery{
+  -webkit-column-count:3;
+  -moz-column-count:3;
+  column-count:3;
+  
+  -webkit-column-gap:20px;
+  -moz-column-gap:20px;
+  column-gap:20px;
+}
+@media (max-width:1200px){
+  #gallery{
+  -webkit-column-count:3;
+  -moz-column-count:3;
+  column-count:3;
+    
+  -webkit-column-gap:20px;
+  -moz-column-gap:20px;
+  column-gap:20px;
+}
+}
+@media (max-width:800px){
+  #gallery{
+  -webkit-column-count:4;
+  -moz-column-count:4;
+  column-count:4;
+    
+  -webkit-column-gap:20px;
+  -moz-column-gap:20px;
+  column-gap:20px;
+}
+}
+@media (max-width:600px){
+  #gallery{
+  -webkit-column-count:3;
+  -moz-column-count:3;
+  column-count:3;
+  
+    -webkit-column-gap:20px;
+  -moz-column-gap:20px;
+  column-gap:20px;
+}  
+}
+.card{
+  width:100%;
+  height:auto;
+  margin: 4% auto;
+  
+  cursor: pointer;
+}
+.modal-img,.model-vid{
+  width:100%;
+  height:auto%;
+ 
+}
+.modal-body{
+  padding:1px;
+}
+/*image gallery end*/
+
+
+
+
+  </style>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KGDQHH8"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+										<div class='slider'>
+							  <div class='slide1' style="font-family:arial; color:black;">Your first Reiki Session is Free!</div>
+							  <div class='slide2' style="font-family:arial; color:black;">Monday Meditation Sessions are <b>Free</b> - <i>7pm to 9pm</i></div>
+							  <div class='slide3' style="font-family:arial; color:black;">Certified Reiki Master - Spiritual Guide</div>
+							</div>
+
+
+					 <div class="container" id="banner">
+						  <div class="row">
+							 <img src="images/croppedhutOG.jpg" class="logo">
+						  </div>
+						</div>
+
+
+								<nav class="navbar navbar-inverse">
+								<div class="container-fluid">
+								  <div class="navbar-header">
+								  
+								
+	  								<!-- Add font awesome icons -->
+									<a href="https://www.facebook.com/profile.php?id=2005495783053495&ref=br_rs" class="fa fa-facebook"></a>
+								  
+									
+										
+								
+								
+									  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>  
+										</button>
+									  
+									  <a class="navbar-brand" href="index.html">The Healing Hut</a>
+									  </div>
+									<div class="collapse navbar-collapse" id="myNavbar">
+									<ul class="nav navbar-nav">
+										<li class="" style="align:right;"><a href="index.html">Home</a></li>
+										<li class="dropdown">
+										  <a class="dropdown-toggle" data-toggle="dropdown" href="#">About <span class="caret"></span></a>
+										  <ul class="dropdown-menu">
+											<li><a href="mystory.html">MyStory</a></li>
+											<li><a href="aboutus.html">About us</a></li>
+											<li><a href="credits.html">Credits</a></li>
+										  </ul>
+										</li>
+										<li class="dropdown">
+										  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Services <span class="caret"></span></a>
+										  <ul class="dropdown-menu">
+										  <li><a href="pricing.html">pricing</a></li>
+											<li><a href="reiki.html">Reiki</a></li>
+											<li><a href="soundhealing.html">Sound healing</a></li>
+										  </ul>
+										</li>
+										<li class="dropdown">
+										  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Media <span class="caret"></span></a>
+										  <ul class="dropdown-menu">
+											<li><a href="photos.html">Photos</a></li>
+											<li><a href="#">Videos</a></li>
+										  </ul>
+										</li>
+										<li class="dropdown">
+										  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Qualifications <span class="caret"></span></a>
+										  <ul class="dropdown-menu">
+											<li><a href="testimonials.html">Testimonials</a></li>
+											<li><a href="certification.html">Certification</a></li>
+										  </ul>
+										</li>
+										<li class="dropdown">
+										  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Community <span class="caret"></span></a>
+										  <ul class="dropdown-menu">
+										<li><a href="meditation.html">Meditation</a></li>
+											<li><a href="yourself.html">What you can do</a></li>
+											<li><a href="chakras.html">Chakra Chart</a></li>
+										  </ul>
+										</li>
+										
+										<li class="" ><a href="contact.html">Contact</a></li>
+									</div>
+										  </div>
+										 </nav>
+	
+	
+	
+	
+	<!----------HEADER------------->
+	
+	
+	
+
+									<section>
+								<div class="container-fluid">
+
+								<div class="main-body" style="background-color:rgba(9, 9, 9, 0.7);">
+
+								<div class="container-bg">
+
+								</div>
+
+
+								<!-----------BODY TEXT----------->
+								<div class="body-text text-center" >
+								<h1 style="font-size: 40px; font-family:papyrus; font-weight: bold; color: white;" > ~Sound Healing~ </h1>
+								<h1 style="font-size: 25px; color:yellow; font-family:papyrus; font-weight: bold; " > ~A <b>Free</b> meditation session is available every monday from 7pm-9pm~</p><br> </h1>
+
+								<h1 style="font-size: 30px; font-family:papyrus; font-weight: bold; color: white;" > ~Benefits of Sound Healing~ </h1>
+
+								<p style=" color: white; font-weight: normal; line-height:27px"> &nbsp; &nbsp; &nbsp; &nbsp; Sound Healing has been used in many cultures and tribes around the world for centuries. Ancient tribes
+								would often use synchronized chanting or participate in drum circles to heal those who have fallen ill in their tribes. These drum circles or sounds were also used to banish evil
+								spirits who wished to cause harm or chaos among the living. Growing good crops, raising healthy livestock, fertility, and calling for rain are all examples of what sound was
+								capable of doing. These sound healing sessions all came down to one thing, Vibrations. </p>
+								 </div>
+
+								 <br>
+								<hr class="style18">
+
+								<div class="body-text text-center" >
+								<h1 style="font-size: 30px; font-family:papyrus; font-weight: bold; color: white;" > ~Electromagnetic Spectrum~ </h1>
+								<h1 style="font-size: 20px; color:yellow; font-family:papyrus; font-weight: bold; " > ~Light, Soundwaves, and Vibrations~</p><br> </h1>
+
+
+
+								<p style=" color: white; font-weight: normal; line-height:27px"> &nbsp; &nbsp; &nbsp; &nbsp; The human range of hearing is <b> 20hz - 20Khz </b> (lowest to highest sound a human can hear).
+								This range is what humans can perceive as sound. From radio waves to gamma rays, all frequencies have an effect on our lives and everything we use in it.
+								<b> Light </b> also has a major effect on our lives and it takes up just a small area of frequencies on the electromagnetic scale. <br>
+								The Sun radiates energy in a wide range of frequencies. Most of these frequencies are invisible to humans. Ultraviolet light is a part of these frequencies that plays a huge role in life on earth. 
+								These frequencies can be good and bad. Too much ultraviolet light, results in dna and cell damage. it can also cause vision loss. on the other hand, Ultraviolet light is vital for the skin to absorb vitamin D, which is a good vitamin for humans.
+								Frequencies from the sun also helped shape life on earth by photosynthesis. You probably remember learning about photosynthesis in school, but it truly is remarkable how light rays are used by plants and some animals.
+								They convert the light energy into chemical energy. The chemical energy is stored and synthesised from carbon dioxide and water. In turn, Oxygen is released as a waste product. It's simply the cycle of life using by using light.
+
+								The chart below represents a scale of frequencies and their relevance.  </p>
+
+
+											<div id="gallery" class="container-fluid" style="padding:5px;">  
+											  <img src="images/emspectrum.jpg"   class="card img-responsive">
+												 </div>
+												 <div id="gallery" class="container-fluid" style="padding:5px;"> 
+												 <img src="images/emspectrum2.jpg"   class="card img-responsive">
+											  </div>
+											  <div id="myModal" class="modal fade" role="dialog" >
+											  <div class="modal-dialog">
+												<!-- Modal content-->
+												<div class="modal-content" style="margin: 20px;">
+												  <div class="modal-body">
+												</div >
+												</div >
+												</div >
+											</div>
+									 
+								 
+								 <hr class="style18">
+								 
+								 <div class="body-text text-center" >
+								 <h1 style="font-size: 30px; font-family:papyrus; font-weight: bold; color: white;" > ~Audible Spectrum~ </h1>
+								 <h1 style="font-size: 20px; color:yellow; font-family:papyrus; font-weight: bold; " > ~How sound can have an effect on the mind~</p><br> </h1>
+								<p style=" color: white; font-weight: normal; line-height:27px"> &nbsp; &nbsp; &nbsp; &nbsp; What does light have to do with sound you ask?
+								 If you consider all the positives and negatives that take place with visible or invisible light, You may start to realize that sound plays another <i> key role</i>
+								 on ourselves and our environment. <br>
+								 light has negative effects on the body. When you stare at the sun too long, your vision becomes impaired or you become blind. If you sun bathe for too long, you have the risk
+								 of developing skin cancer. On a positive note, The right amount of sun is good for humans, plants, and animals.<br>
+								 Now, with that being said, <b> Sound </b> is the same way. Too much sound, at high levels can cause you to develop tinitus and deafness over time. Some Higher frequencies can cause cancer, 
+								 while others can treat cancer. Frequencies and these soundwaves can treat a list of illness, as well as cause illness over time.<br>
+								 I have mentioned that the human range of hearing is between <b>20hz - 20Khz.</b> <br>
+								The illustrations below should give you a basic understanding. After viewing, compare these frequencies to where they fall on the electromagnetic spectrum images above.
+								</p>
+
+
+
+											 
+											<div id="gallery" class="container-fluid" style="padding:5px;">  
+											  <img src="images/hearingrange1.jpg"   " class="card img-responsive">
+											  </div>
+											  <div id="gallery" class="container-fluid" style="padding:5px;">  
+											  <img src="images/hearingrange2.jpg"    " class="card img-responsive" >
+											  </div>
+											  <div id="myModal" class="modal fade" role="dialog" >
+											  <div class="modal-dialog">
+												<!-- Modal content-->
+												<div class="modal-content" style="margin: 20px;">
+												  <div class="modal-body">
+												</div >
+												</div >
+												</div >
+											</div>
+											
+											<p style=" color: white; font-weight: normal; line-height:27px"> &nbsp; &nbsp; &nbsp; &nbsp; When you use rythym and frequency, you can entertain the brain.
+											This entertainment does not always mean joyful or musical past times, but rather To entertain the brain and atune it for healing. We all posses the ability to shift
+											our brainwaves downward from our <b>beta</b> state(normal consciousness), to an <b> alpha </b> state(relaxed consciousness). We can also shift our brainwaves into 
+											<b>theta</b>(meditative) and <b>delta</b>(sleep) states. <br>
+											The sleep state is where we can heal internally.
+											</p>
+											
+								<li  style="font-size: 18px; font-family:'times new roman'; color:white; background-color:rgba(9, 9, 9, 0.6);" >Delta - .2 to 3Hz</li><br>
+								<li  style="font-size: 18px; font-family:'times new roman'; color:white; background-color:rgba(9, 9, 9, 0.6);" >Theta - 4 to 7Hz</li><br>
+								<li  style="font-size: 18px; font-family:'times new roman'; color:white; background-color:rgba(9, 9, 9, 0.6);" >Alpha - 8 to 13Hz</li><br>
+								<li  style="font-size: 18px; font-family:'times new roman'; color:white; background-color:rgba(9, 9, 9, 0.6);" >Beta - 16 to 31Hz</li><br>
+								 
+									<p style=" color: white; font-weight: normal; line-height:27px"> &nbsp; &nbsp; &nbsp; &nbsp; Using frequencies and combing breathing techniques to match soundwaves are a great
+									way to calm down. When you use Alpha waves for example to acheive a relaxed state, you are synchronizing your brainwaves to a soundwave. Matching your breathing to the same rate can help
+									greatly.<br>
+									Sound is also a great way to loosen and move through energetic blockages. These blockages like I have mentioned before can manifest as Pain, Guilt, Doubt, Sadness, Worries or anything
+									negative unnatural to the body. Sound healing can treat a list of issues.
+									</p>
+									<li  style="font-size: 18px; font-family:'times new roman'; color:white; background-color:rgba(9, 9, 9, 0.6);" >Anxiety and depression</li><br>
+								<li  style="font-size: 18px; font-family:'times new roman'; color:white; background-color:rgba(9, 9, 9, 0.6);" >Sleep disorders</li><br>
+								<li  style="font-size: 18px; font-family:'times new roman'; color:white; background-color:rgba(9, 9, 9, 0.6);" >Stress and PTSD</li><br>
+								<li  style="font-size: 18px; font-family:'times new roman'; color:white; background-color:rgba(9, 9, 9, 0.6);" >Pain</li><br>
+
+
+								<p style=" color: white; font-weight: normal; line-height:27px"> &nbsp; &nbsp; &nbsp; &nbsp; Our bodies and mind are two seperate things. Sometimes our physical bodies walk in one direction,
+								While our energy bodies walk in another direction. It is up to us to help find a common ground and guide both parts of ourselves onto the same path, at the same time, and in the same tune.
+								Some people can do this alone, While others may seek help from others who have been in a negative place. 
+									</p>
+								</div>
+
+
+	
+	
+</div>
+  </section>
+  
+
+
+
+													
+								
+	
+
+ 
+ 
+																			<script> $('#topnavbar').affix({
+																				offset: {
+																					top: $('#banner').height()
+																				}   
+																			});
+																			</script>
+
+
+
+
+																			<script>
+																			$(document).ready(function(){
+																			  $("img").click(function(){
+																			  var t = $(this).attr("src");
+																			  $(".modal-body").html("<img src='"+t+"' class='modal-img'>");
+																			  $("#myModal").modal();
+																			});
+
+																			
+																			});//EOF Document.ready
+																			</script>
+
+
+
+</body>
+</html>

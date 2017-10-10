@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Global Site Tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-107938094-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+gtag('set', {'user_id': 'USER_ID'}); // Set the user ID using signed-in user_id.
+  gtag('config', 'UA-107938094-1');
+</script>
+  <title>Healing Hut</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Cinzel:400,700,900|Open+Sans:400,700" rel="stylesheet">
+    <!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  
+  <style>
+  /*very top carousel advertisement*/
+		  .slider {
+		  background-color: #fffbe2;
+		  font-size:11px;
+		  text-align: center;
+		  line-height:40px;
+		  max-width: 100%;
+		  height: 40px;
+		  margin: 0px auto;
+		  position: relative;
+		}
+		.slide1,.slide2,.slide3,.slide4,.slide5 {
+		  position: absolute;
+		  width: 100%;
+		  height: 100%;
+		}
+		.slide1 {
+		  background: url(.jpg)no-repeat center;
+			  background-size: cover;
+			animation:fade 8s infinite;
+		-webkit-animation:fade 8s infinite;
+
+		} 
+		.slide2 {
+		  background: url(.jpeg)no-repeat center;
+			  background-size: cover;
+			animation:fade2 8s infinite;
+		-webkit-animation:fade2 8s infinite;
+		}
+		.slide3 {
+			background: url(.jpg)no-repeat center;
+			  background-size: cover;
+			animation:fade3 8s infinite;
+		-webkit-animation:fade3 8s infinite;
+		}
+		@keyframes fade
+		{
+		  0%   {opacity:1}
+		  33.333% { opacity: 0}
+		  66.666% { opacity: 0}
+		  100% { opacity: 1}
+		}
+		@keyframes fade2
+		{
+		  0%   {opacity:0}
+		  33.333% { opacity: 1}
+		  66.666% { opacity: 0 }
+		  100% { opacity: 0}
+		}
+		@keyframes fade3
+		{
+		  0%   {opacity:0}
+		  33.333% { opacity: 0}
+		  66.666% { opacity: 1}
+		  100% { opacity: 0}
+		}
+/*top banner advertisement end*/
+
+
+
+
+
+
+
+  /*facebook button*/
+					.fa {
+		  padding: 5px;
+		  font-size: 20px;
+		  width: 30px;
+		  height:30px;
+		  text-align: center;
+		  
+		  margin: 8px 7px;
+		  
+		}
+
+		.fa:hover {
+			opacity: 0.7;
+		}
+
+		.fa-facebook {
+		  background: #3B5998;
+		  color: white;
+		}
+		
+		
+		
+		
+		
+
+
+  
+  
+  
+  
+  
+hr.style18 { 
+  height: 30px; 
+  margin-left:5%;
+  margin-right:5%;
+  border-style: solid; 
+  border-color: #999; 
+  border-width: 1px 0 0 0; 
+  border-radius: 40px; 
+} 
+hr.style18:before { 
+  display: block; 
+  content: ""; 
+  height: 30px; 
+  margin-top: -31px; 
+  border-style: solid; 
+  border-color: #999; 
+  border-width: 0 0 1px 0; 
+  border-radius: 49px; 
+}
+ 
+  
+  
+  
+
+
+
+h1 {
+  font-family: 'Cinzel', serif;
+  font-size: 5.0em;
+  color: #111;
+  margin: 10px;
+  padding: 10px;
+  max-width: 900px;
+  margin: auto;
+}
+
+p {
+  font-family: 'times new roman';
+  font-size: 17px;
+  color: #111;
+  margin: 0px;
+  padding: 0px;
+  max-width: 1000px;
+  margin: auto;
+  color: white;
+  line-height: 22px;
+}
+
+/**********Main Image***********/
+.img-align {
+  display: block;
+  margin: 0px auto;
+}
+
+.main {
+  width: 512px;
+  height: 288px;
+}
+
+
+/***********Tribute paragraphs******/
+.body-text {
+  
+  font-family:  arial;
+  margin: 5px 5px 5px 5px;
+  padding: 5px;
+  font-size: 15px;
+}
+
+
+/*******paragraph image********/
+.smaller-img {
+  width: 250px;
+  height: 175px;
+  float: right;
+  padding: 0px 20px 20px 20px;
+  margin-left: 20px;
+}
+
+
+
+
+@font-face {
+    font-family: papyrus;
+    src: url(fonts/papyrus); format('truetype');
+	
+}
+
+
+div{
+font-family: Papyrus;
+font-weight: bold;
+font-size: 110%;}
+
+
+
+				
+				.navbar  {
+    margin-bottom: 0;
+}
+
+
+
+
+
+/*background fixed image*/
+section {
+  width: 100%;
+  height: 100%;
+  background-position:50% 100%;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom:0%;
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+section:nth-of-type(1) {
+  background-image: url('images/bamboo.jpg')
+}
+
+
+/* For width 400px and larger: */
+@media only screen and (min-width: 400px) {
+    section { 
+        background-image: url('images/bamboo.jpg'); 
+    }
+}
+/* For width 400px and smaller: */
+@media only screen and (max-width: 100px) {
+    section { 
+        background-image: url('images/bamboo.jpg'); 
+		background-size: 50%;
+    }
+}
+/*end fixed image*/
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: papyrus;
+    src: url(fonts/papyrus); format('truetype');
+	
+}
+
+
+div{
+font-family: Papyrus;
+font-weight: bold;
+font-size: 110%;}
+
+
+
+				
+				.navbar  {
+    margin-bottom: 0;
+	
+}
+
+
+
+
+
+
+topnavbar {
+    margin: 0;
+}
+#topnavbar.affix {
+    position: absolute;
+    top: 0;
+    width: 100%;
+	
+	
+	
+}
+
+#banner {
+     background-color: #adad85;
+	 width: 100%;
+	 
+}
+img{
+ margin: center;
+    width: 14%;
+	  display: block;
+    margin-left: auto;
+    margin-right: auto; 
+   
+    padding: 2px;}
+	
+
+	
+	.text-center {
+
+  color: white;
+  font-weight: normal;
+  font-size:18px;
+  
+  line-height: 2;
+   margin-left: auto;
+  margin-right: auto;
+  max-width:85%;
+  text-align: center;
+}
+
+
+
+
+
+.main-body {
+
+  background-color: #333;
+  margin-left: auto;
+  margin-top: 2%;
+  margin-right: auto;
+  max-width: 100%;
+  margin-bottom: 2%;
+  border-color: white;
+  border-width: 2px;
+  border-style: groove;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+  </style>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KGDQHH8"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+
+
+									<div class='slider'>
+							  <div class='slide1' style="font-family:arial;">Your first Reiki Session is Free!</div>
+							  <div class='slide2' style="font-family:arial;">Monday Meditation Sessions are <b>Free</b> - <i>7pm to 9pm</i></div>
+							  <div class='slide3' style="font-family:arial;">Certified Reiki Master - Spiritual Guide</div>
+							</div>
+
+
+ <div class="container" id="banner">
+      <div class="row">
+         <img src="images/croppedhutOG.jpg" class="logo">
+      </div>
+    </div>
+
+
+								<nav class="navbar navbar-inverse">
+								<div class="container-fluid">
+								  <div class="navbar-header">
+								  
+								
+	  								<!-- Add font awesome icons -->
+									<a href="https://www.facebook.com/profile.php?id=2005495783053495&ref=br_rs" class="fa fa-facebook"></a>
+								  
+									
+										
+								
+								
+									  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>  
+										</button>
+									  
+									  <a class="navbar-brand" href="index.html">The Healing Hut</a>
+									  </div>
+									<div class="collapse navbar-collapse" id="myNavbar">
+									<ul class="nav navbar-nav">
+										<li class="" style="align:right;"><a href="index.html">Home</a></li>
+										<li class="dropdown">
+										  <a class="dropdown-toggle" data-toggle="dropdown" href="#">About <span class="caret"></span></a>
+										  <ul class="dropdown-menu">
+											<li><a href="mystory.html">MyStory</a></li>
+											<li><a href="aboutus.html">About us</a></li>
+											<li><a href="credits.html">Credits</a></li>
+										  </ul>
+										</li>
+										<li class="dropdown">
+										  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Services <span class="caret"></span></a>
+										  <ul class="dropdown-menu">
+										  <li><a href="pricing.html">pricing</a></li>
+											<li><a href="reiki.html">Reiki</a></li>
+											<li><a href="soundhealing.html">Sound healing</a></li>
+										  </ul>
+										</li>
+										<li class="dropdown">
+										  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Media <span class="caret"></span></a>
+										  <ul class="dropdown-menu">
+											<li><a href="photos.html">Photos</a></li>
+											<li><a href="#">Videos</a></li>
+										  </ul>
+										</li>
+										<li class="dropdown">
+										  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Qualifications <span class="caret"></span></a>
+										  <ul class="dropdown-menu">
+											<li><a href="testimonials.html">Testimonials</a></li>
+											<li><a href="certification.html">Certification</a></li>
+										  </ul>
+										</li>
+										<li class="dropdown">
+										  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Community <span class="caret"></span></a>
+										  <ul class="dropdown-menu">
+										<li><a href="meditation.html">Meditation</a></li>
+											<li><a href="yourself.html">What you can do</a></li>
+											<li><a href="chakras.html">Chakra Chart</a></li>
+										  </ul>
+										</li>
+										
+										<li class="" ><a href="contact.html">Contact</a></li>
+									</div>
+										  </div>
+										 </nav>
+										  
+										  
+										  
+										  
+										  
+			
+										  
+<section>
+<!----------HEADER------------->
+<div class="container-fluid">
+<div class="main-body" style="background-color:rgba(9, 9, 9, 0.6);">
+<div class="container-bg">
+
+<h1 class="text-center" style="font-family:papyrus; font-size: 70px;">~Reiki~</h1>
+
+<img src="images/usui.jpg" style="width:200px; height:250px;" class="img-responsive img-align main" alt="picture of Usui"/>
+
+<!------------------------------>
+
+  
+<!-----------BODY TEXT----------->
+<div class="body-text text-center" >
+<h1 style="font-size: 30px; font-family:papyrus; font-weight: bold; color: white;" > ~History of Reiki~ </h1>
+
+<p style=" color: white; text-align: left; display: block;">  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Mikao Usui was born August 15, 1865. He lived in the village of
+ Taniai, which is near present-day Nagoya, Japan.<br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Reiki is most notibaly tied to Usui's name because of the effort he put into studying and practicing Reiki.
+There were others before him, and different variations of Reiki, But Reiki isn't about who made or discovered this skill.<br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Although, this is a vague summary, I will provide the resources, knowledge, and personal experience to help you discover Reiki for yourself.  </p>
+ </div>
+
+ <br>
+<hr class="style18">
+ 
+ 
+
+ <div class="body-text text-center">
+  <h1 style="font-size: 200%; font-family:papyrus; color:white; font-weight: bold;" > ~What is Reiki?~ </h1>
+<p style=" color: white; text-align: center; display: block;"> 
+ To define the word Reiki, it is best to break the word itself in half.  
+</p><br>
+
+<p style=" color: white; text-align: center; display: block; font-size: 30px;"> 
+~Rei~ &nbsp; &nbsp; ~ki~
+</p><br>
+
+<p style=" color: white; text-align: center; display: block;"> 
+ Rei - <i>"Spirutualy Guided"</i>  
+</p>
+<p style=" color: white; text-align: center; display: block;"> 
+ Ki - <i>"Life Force Energy"</i>  
+</p>
+
+<p style=" color: white; text-align: left; display: block;"> <br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  In life, you not only have a <i> physical body,</i> but you also have an <i> energy</i> body too.
+This energy body is also widely refered to as the <i>"Aura".</i><br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Your aura is an energetic force field that protects you from negtive energy. When your Aura takes on too much resistance,
+you become vulnerable to sickness, weakness, pain, and disease. All of these discomforts manifest in the <i><b> energy body </i></b> first, before being able
+to manifest in the physical body.<br><br>
+
+</p>
+</div>
+
+
+<hr class="style18">
+ 
+ 
+
+ <div class="body-text text-center">
+  <h1 style="font-size: 200%; font-family:papyrus; color:white; font-weight: bold;" > ~What happens in a Reiki session?~ </h1>
+<p style=" color: white; text-align: left; display: block;"> 
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  When you get a Reiki session, your getting conscious healing energy channeled into your Aura, which is where the roots of
+ your discomforts exist. It gets to alot of the deep layers of your inner blockages and brings them to the surface to be cleansed and healed.
+ <br><br>
+ <i>            "All illness and discomforts are first manifested in your spirit body, before their able to manifest in your physical body.
+            Reiki gets to the root cause of your troubles, drawing up inner blockages to the surface to be healed."</i>
+</p><br><br>
+</div>
+
+<hr class="style18">
+
+
+ <div class="body-text text-center">
+  <h1 style="font-size: 200%; font-family:papyrus; color:white; font-weight: bold;" > ~How is a Reiki session performed?~ </h1>
+<p style=" color: white; text-align: left; display: block;"> 
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Reiki sessions can be performed in a multiple of ways, But it should be noted that Reiki isn't a form of massage (in a physical sense).<br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; For those who may feel uncomfortable being touched, Reiki is performed by using the hands, which are hovering over your body. No physical touching is needed unless requested
+by you.
+ The Reiki performer or guide uses intense focus and meditation to transfer energy to and from his or her body into yours.<br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; A Reiki session can be performed by laying down on a comfortable bed, or by sitting in a relaxed position. For best results,
+ Laying down is the most popular way to have a Reiki session done. It allows the instructor or performer to have full control over healing your body, or root cause of your discomforts.
+ </p><br><br>
+ </div>
+ 
+ <hr class="style18">
+
+
+ <div class="body-text text-center">
+  <h1 style="font-size: 200%; font-family:papyrus; color:white; font-weight: bold;" > ~How to prepare for a Reiki Session~ </h1>
+<p style=" color: white; text-align: left; display: block;"> 
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Whether you beleive Reiki can heal you or you are unsure about the process of Reiki, it is crucial to be relaxed and open-minded
+ about the experience. There are a few ideas to consider before diving into your first or future sessions.<br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; With any type of healing, There are tips and guidlines on how to achieve the best results.<br><br>
+             example:<i> If your suffering from a heart problem, Your doctor may perform surgery or prescribe medication, but they might also suggest
+			 that you consider a new diet, excercise, or change life style habbits.</i><br><br>
+			
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Reiki is the same way. it is best to understand why you wish to receive a Reiki session to begin with, and how to prepare yourself to get the best results.<br>
+
+	 </p><br><br>
+	 
+  <li  style="font-size: 18px; font-family:'times new roman'; color:white; background-color:rgba(9, 9, 9, 0.6);" >98% of the time, your blockages are from unforgiveness of yourself, or to whoever is connected to a situation that gets drawn up.</li><br>
+  <li  style="font-size: 18px; font-family:'times new roman'; color:white;background-color:rgba(9, 9, 9, 0.6);" >Once you can forgive, you allow the healing to occur because the past situations have no more power over you.</li><br>
+  <li  style="font-size: 18px; font-family:'times new roman'; color:white;background-color:rgba(9, 9, 9, 0.6);" >You don't have to forgive a persons actions from a physical perspective, it is their soul that has done the damage.</li><br>
+  <li  style="font-size: 18px; font-family:'times new roman'; color:white;background-color:rgba(9, 9, 9, 0.6);" >Forigve the person on a soul level to free yourself from them and the situation.</li><br><br>
+</div>
+
+
+  
+   <hr class="style18">
+
+
+ <div class="body-text text-center">
+  <h1 style="font-size: 200%; font-family:papyrus; color:white; font-weight: bold;" > ~Side Effects of Reiki~ </h1>
+<p style=" color: white; text-align: left; display: block;"> 
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Side effects may vary. Some may or may not experience any side effects at all.<br>
+   You will need some rest and plenty of water after a session to recuperate.<br>
+   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; The energy is conscious and knows where you need healing. Energy also knows the best way
+   to help you understand things in a better way. It gets to the deeper layers of your blockages and brings them to the surface to be healed.<br>
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; With that being said, it has been known to draw up past traumas, and if this happens to you, <b>do not</b>
+	let it trigger your fear. Instead, know that this is a great oppurtunity to heal your blockages.
+ </p>
+ </div>
+ 
+   
+   <hr class="style18">
+
+
+ <div class="body-text text-center">
+  <h1 style="font-size: 200%; font-family:papyrus; color:white; font-weight: bold;" > ~Conclusion~ </h1>
+<p style=" color: white; text-align: left; display: block;"> 
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; I sincerely hope this information has helped you understand what Reiki is, and how it can potentially help you.
+ I am at your disposal for whatever is bothering you. I know I can help, for this line of work has been apart of my life for over 10 years. I am qualified and driven
+ to continue helping people. Thank you.
+ </p>
+ </div>
+
+<!-------------------------------->
+  </div>
+  </div>
+</div>
+</section>
+
+
+
+
+													
+								
+	
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ 
+ 
+<script> $('#topnavbar').affix({
+    offset: {
+        top: $('#banner').height()
+    }   
+});
+</script>
+
+
+
+</body>
+</html>

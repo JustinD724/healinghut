@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Global Site Tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-107938094-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+gtag('set', {'user_id': 'USER_ID'}); // Set the user ID using signed-in user_id.
+  gtag('config', 'UA-107938094-1');
+</script>
+
+  <title>Healing Hut</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  
+  <style>
+  
+  /*very top carousel advertisement*/
+		  .slider {
+		  background-color: #fffbe2;
+		  font-size:11px;
+		  text-align: center;
+		  line-height:40px;
+		  max-width: 100%;
+		  height: 40px;
+		  margin: 0px auto;
+		  position: relative;
+		}
+		.slide1,.slide2,.slide3,.slide4,.slide5 {
+		  position: absolute;
+		  width: 100%;
+		  height: 100%;
+		}
+		.slide1 {
+		  background: url(.jpg)no-repeat center;
+			  background-size: cover;
+			animation:fade 8s infinite;
+		-webkit-animation:fade 8s infinite;
+
+		} 
+		.slide2 {
+		  background: url(.jpeg)no-repeat center;
+			  background-size: cover;
+			animation:fade2 8s infinite;
+		-webkit-animation:fade2 8s infinite;
+		}
+		.slide3 {
+			background: url(.jpg)no-repeat center;
+			  background-size: cover;
+			animation:fade3 8s infinite;
+		-webkit-animation:fade3 8s infinite;
+		}
+		@keyframes fade
+		{
+		  0%   {opacity:1}
+		  33.333% { opacity: 0}
+		  66.666% { opacity: 0}
+		  100% { opacity: 1}
+		}
+		@keyframes fade2
+		{
+		  0%   {opacity:0}
+		  33.333% { opacity: 1}
+		  66.666% { opacity: 0 }
+		  100% { opacity: 0}
+		}
+		@keyframes fade3
+		{
+		  0%   {opacity:0}
+		  33.333% { opacity: 0}
+		  66.666% { opacity: 1}
+		  100% { opacity: 0}
+		}
+/*top banner advertisement end*/
+
+
+
+
+
+  /*facebook button*/
+					.fa {
+		  padding: 5px;
+		  font-size: 20px;
+		  width: 30px;
+		  height:30px;
+		  text-align: center;
+		  
+		  margin: 8px 7px;
+		  
+		}
+
+		.fa:hover {
+			opacity: 0.7;
+		}
+
+		.fa-facebook {
+		  background: #3B5998;
+		  color: white;
+		}
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  body {
+    background-image: url("images/oceantide.jpg");
+	margin-bottom:100%;
+   background-size: 100% 100% ;
+   height: 100%;
+   width: 100%;
+
+
+    background-repeat: no-repeat;
+}
+
+@font-face {
+    font-family: papyrus;
+    src: url(fonts/papyrus); format('truetype');
+	
+}
+
+
+div{
+font-family: Papyrus;
+font-weight: bold;
+font-size: 110%;}
+
+
+
+				
+				.navbar  {
+    margin-bottom: 0;
+	
+}
+
+
+
+
+
+
+topnavbar {
+    margin: 0;
+}
+#topnavbar.affix {
+    position: absolute;
+    top: 0;
+    width: 100%;
+	
+	
+	
+}
+
+#banner {
+     background-color: #adad85;
+	 width: 100%;
+	 
+}
+img{
+ margin: center;
+    width: 14%;
+	  display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    padding: 2px;
+	}
+	
+	
+	
+	
+
+
+	
+table#miyazaki { 
+  margin: 0 auto;
+  border-collapse: collapse;
+  font-family: Agenda-Light, sans-serif;
+  font-weight: 100; 
+  background: #284256; color: #fff;
+  text-rendering: optimizeLegibility;
+  border-radius: 10px; 
+}
+table#miyazaki caption { 
+  font-size: 2rem; color: #111;
+  margin: 1rem;
+  
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center left, center right; 
+}
+table#miyazaki thead th { font-weight: 600; }
+table#miyazaki thead th, table#miyazaki tbody td { 
+  padding: .8rem; font-size: 1.4rem;
+}
+table#miyazaki tbody td { 
+  padding: .8rem; font-size: 1.4rem;
+  color: #444; background: #eee; 
+}
+table#miyazaki tbody tr:not(:last-child) { 
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;  
+}
+
+@media screen and (max-width: 600px) {
+  table#miyazaki caption { background-image: none; }
+  table#miyazaki thead { display: none; }
+  table#miyazaki tbody td { 
+    display: block; padding: .6rem; 
+  }
+  table#miyazaki tbody tr td:first-child { 
+    background: #666; color: #fff; 
+  }
+	table#miyazaki tbody td:before { 
+    content: attr(data-th); 
+    font-weight: bold;
+    display: inline-block;
+    width: 6rem;  
+  }
+}
+
+
+
+  </style>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KGDQHH8"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+									<div class='slider'>
+							  <div class='slide1' style="font-family:arial;">Your first Reiki Session is Free!</div>
+							  <div class='slide2' style="font-family:arial;">Monday Meditation Sessions are <b>Free</b> - <i>7pm to 9pm</i></div>
+							  <div class='slide3' style="font-family:arial;">Certified Reiki Master - Spiritual Guide</div>
+							</div>
+
+
+ <div class="container" id="banner">
+      <div class="row">
+         <img src="images/croppedhutOG.jpg" class="logo">
+      </div>
+    </div>
+
+
+								<nav class="navbar navbar-inverse">
+								<div class="container-fluid">
+								  <div class="navbar-header">
+								  
+								
+	  								<!-- Add font awesome icons -->
+									<a href="https://www.facebook.com/profile.php?id=2005495783053495&ref=br_rs" class="fa fa-facebook"></a>
+								  
+									
+										
+								
+								
+									  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>  
+										</button>
+									  
+									  <a class="navbar-brand" href="index.html">The Healing Hut</a>
+									  </div>
+									<div class="collapse navbar-collapse" id="myNavbar">
+									<ul class="nav navbar-nav">
+										<li class="" style="align:right;"><a href="index.html">Home</a></li>
+										<li class="dropdown">
+										  <a class="dropdown-toggle" data-toggle="dropdown" href="#">About <span class="caret"></span></a>
+										  <ul class="dropdown-menu">
+											<li><a href="mystory.html">MyStory</a></li>
+											<li><a href="aboutus.html">About us</a></li>
+											<li><a href="credits.html">Credits</a></li>
+										  </ul>
+										</li>
+										<li class="dropdown">
+										  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Services <span class="caret"></span></a>
+										  <ul class="dropdown-menu">
+										  <li><a href="pricing.html">pricing</a></li>
+											<li><a href="reiki.html">Reiki</a></li>
+											<li><a href="soundhealing.html">Sound healing</a></li>
+										  </ul>
+										</li>
+										<li class="dropdown">
+										  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Media <span class="caret"></span></a>
+										  <ul class="dropdown-menu">
+											<li><a href="photos.html">Photos</a></li>
+											<li><a href="#">Videos</a></li>
+										  </ul>
+										</li>
+										<li class="dropdown">
+										  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Qualifications <span class="caret"></span></a>
+										  <ul class="dropdown-menu">
+											<li><a href="testimonials.html">Testimonials</a></li>
+											<li><a href="certification.html">Certification</a></li>
+										  </ul>
+										</li>
+										<li class="dropdown">
+										  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Community <span class="caret"></span></a>
+										  <ul class="dropdown-menu">
+										<li><a href="meditation.html">Meditation</a></li>
+											<li><a href="yourself.html">What you can do</a></li>
+											<li><a href="chakras.html">Chakra Chart</a></li>
+										  </ul>
+										</li>
+										
+										<li class="" ><a href="contact.html">Contact</a></li>
+									</div>
+										  </div>
+										 </nav>
+										  
+										  
+										  
+										 
+										<table id="miyazaki">
+										<caption><div class="main-body" style="border-radius: 10px; background-color:rgba(0, 0, 0, 0.6);">
+									<h3 class="text-primary text-center h1" style="font-size: 25px; padding:5px; color: white;" ><b>A Special thanks to everyone who has contributed</h3>
+									<hr style="width: 75%;">
+									<h4 class="text-center" style="font-size: 20px; padding:5px; color: white;"> You will receive as much energy as the energy you have put in</h4>
+									</div> </caption>
+
+										<thead>
+										<tr><th>Name<th>Position<th>Website
+										<tbody>
+										<tr>
+										<td class="text-left">Kitsy Higgins</td>
+							<td class="text-left">-Reiki master <br> -Spiritual Counselor</td>
+							<td class="text-left"><a href="https://www.revkeh.com">revkeh.com</a></td>
+										<tr>
+								<td class="text-left">Justin DeRose</td>
+							<td class="text-left" >-Web developer & Designer<br> -Computer & electronics Technician<br> -Audio Engineer</td>
+								<td class="text-left"><a href="https://www.linkedin.com/in/justin-derose-72422749/">LinkedIn page</a><br>
+								</td>
+							</tr>
+							<tr>
+							<td class="text-left">Kimberly Petrikovic</td>
+							<td class="text-left">-Reiki Master <br> -Teacher</td>
+								<td class="text-left"><a href="http://kimron.nerium.com/us/en/">kimron.nerium.com</a><br>
+									<a href="https://www.facebook.com/kimronwellness/">facebook/kimronwellness</a></td>
+							</tr>
+							<tr>
+							<td class="text-left">Deniz Altindas</td>
+							<td class="text-left">Photographer</td>
+								<td class="text-left"><a href="https://unsplash.com/">Unsplash.com</a></td>
+							</tr>
+							<tr>
+							<td class="text-left">Nick Grappone</td>
+							<td class="text-left">Photographer</td>
+								<td class="text-left"><a href="https://unsplash.com/">Unsplash.com</a></td>
+							</tr>
+							<tr>
+							<td class="text-left">Gaelle Marcel</td>
+							<td class="text-left">Photographer</td>
+								<td class="text-left"><a href="https://unsplash.com/">Unsplash.com</a></td>
+							</tr>
+							<tr>
+							<td class="text-left">Jake Anderson</td>
+							<td class="text-left">Photographer</td>
+								<td class="text-left"><a href="https://unsplash.com/">Unsplash.com</a></td>
+							</tr>
+							<tr>
+							<td class="text-left">Aperture Vintage</td>
+							<td class="text-left">Photographer</td>
+								<td class="text-left"><a href="https://unsplash.com/">Unsplash.com</a></td>
+							</tr>
+							<tr>
+							<td class="text-left">Liam Pozz</td>
+							<td class="text-left">Photographer</td>
+								<td class="text-left"><a href="https://unsplash.com/">Unsplash.com</a></td>
+							</tr>
+							<tr>
+							<td class="text-left">Abigail Keenan</td>
+							<td class="text-left">Photographer</td>
+								<td class="text-left"><a href="https://unsplash.com/">Unsplash.com</a></td>
+							</tr>
+							<tr>
+							<td class="text-left">reza shayestehpour</td>
+							<td class="text-left">Photographer</td>
+								<td class="text-left"><a href="https://unsplash.com/">Unsplash.com</a></td>
+							</tr>
+							<tr>
+							<td class="text-left">Igor Ovsyannykov</td>
+							<td class="text-left">Photographer</td>
+								<td class="text-left"><a href="https://unsplash.com/">Unsplash.com</a></td>
+							</tr>
+							<tr>
+							<td class="text-left">Erol Ahmed</td>
+							<td class="text-left">Photographer</td>
+								<td class="text-left"><a href="https://unsplash.com/">Unsplash.com</a></td>
+							</tr>
+							<tr>
+							<td class="text-left">Clarisse Meyer</td>
+							<td class="text-left">Photographer</td>
+								<td class="text-left"><a href="https://unsplash.com/">Unsplash.com</a></td>
+							</tr>
+							<tr>
+							<td class="text-left">Austin Neill </td>
+							<td class="text-left">Photographer</td>
+								<td class="text-left"><a href="https://unsplash.com/">Unsplash.com</a></td>
+							</tr>
+							<tr>
+							<td class="text-left"> Gustav Gullstrand </td>
+							<td class="text-left">Photographer</td>
+								<td class="text-left"><a href="https://unsplash.com/">Unsplash.com</a></td>
+							</tr>
+							<tr>
+							<td class="text-left"> Lukasz Szmigiel  </td>
+							<td class="text-left">Photographer</td>
+								<td class="text-left"><a href="https://unsplash.com/">Unsplash.com</a></td>
+							</tr>
+							<tr>
+							<td class="text-left"> Vincent Guth  </td>
+							<td class="text-left">Photographer</td>
+								<td class="text-left"><a href="https://unsplash.com/">Unsplash.com</a></td>
+							</tr>
+							<tr>
+							<td class="text-left"> Madison Nickel  </td>
+							<td class="text-left">Photographer</td>
+								<td class="text-left"><a href="https://unsplash.com/">Unsplash.com</a></td>
+							</tr>
+							<tr>
+							<td class="text-left"> Nathan Anderson  </td>
+							<td class="text-left">Photographer</td>
+								<td class="text-left"><a href="https://unsplash.com/">Unsplash.com</a></td>
+							</tr>
+										</table>
+										
+										
+						
+										
+										
+
+													
+															  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+																<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
+
+ 
+ 
+															<script> $('#topnavbar').affix({
+																offset: {
+																	top: $('#banner').height()
+																}   
+															});
+															</script>
+
+
+															<script>
+															/* Demo purposes only */
+															$(".hover").mouseleave(
+															  function () {
+																$(this).removeClass("hover");
+															  }
+															);
+															</script>
+															
+															
+															
+															
+															
+															<script>
+															var headertext = [],
+															headers = document.querySelectorAll("#miyazaki th"),
+															tablerows = document.querySelectorAll("#miyazaki th"),
+															tablebody = document.querySelector("#miyazaki tbody");
+
+															for(var i = 0; i < headers.length; i++) {
+															  var current = headers[i];
+															  headertext.push(current.textContent.replace(/\r?\n|\r/,""));
+															} 
+															for (var i = 0, row; row = tablebody.rows[i]; i++) {
+															  for (var j = 0, col; col = row.cells[j]; j++) {
+																col.setAttribute("data-th", headertext[j]);
+															  } 
+															}
+															</script>
+
+
+
+
+</body>
+</html>
+
+							
+							
+							
+							

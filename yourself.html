@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Global Site Tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-107938094-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+gtag('set', {'user_id': 'USER_ID'}); // Set the user ID using signed-in user_id.
+  gtag('config', 'UA-107938094-1');
+</script>
+
+  <title>Healing Hut</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+  <style>
+  
+  /*very top carousel advertisement*/
+		  .slider {
+		  background-color: #fffbe2;
+		  font-size:11px;
+		  text-align: center;
+		  line-height:40px;
+		  max-width: 100%;
+		  height: 40px;
+		  margin: 0px auto;
+		  position: relative;
+		}
+		.slide1,.slide2,.slide3,.slide4,.slide5 {
+		  position: absolute;
+		  width: 100%;
+		  height: 100%;
+		}
+		.slide1 {
+		  background: url(.jpg)no-repeat center;
+			  background-size: cover;
+			animation:fade 8s infinite;
+		-webkit-animation:fade 8s infinite;
+
+		} 
+		.slide2 {
+		  background: url(.jpeg)no-repeat center;
+			  background-size: cover;
+			animation:fade2 8s infinite;
+		-webkit-animation:fade2 8s infinite;
+		}
+		.slide3 {
+			background: url(.jpg)no-repeat center;
+			  background-size: cover;
+			animation:fade3 8s infinite;
+		-webkit-animation:fade3 8s infinite;
+		}
+		@keyframes fade
+		{
+		  0%   {opacity:1}
+		  33.333% { opacity: 0}
+		  66.666% { opacity: 0}
+		  100% { opacity: 1}
+		}
+		@keyframes fade2
+		{
+		  0%   {opacity:0}
+		  33.333% { opacity: 1}
+		  66.666% { opacity: 0 }
+		  100% { opacity: 0}
+		}
+		@keyframes fade3
+		{
+		  0%   {opacity:0}
+		  33.333% { opacity: 0}
+		  66.666% { opacity: 1}
+		  100% { opacity: 0}
+		}
+/*top banner advertisement end*/
+
+
+
+
+
+
+hr.style18 { 
+  height: 30px; 
+  margin-left:5%;
+  margin-right:5%;
+  border-style: solid; 
+  border-color: #999; 
+  border-width: 1px 0 0 0; 
+  border-radius: 40px; 
+} 
+hr.style18:before { 
+  display: block; 
+  content: ""; 
+  height: 30px; 
+  margin-top: -31px; 
+  border-style: solid; 
+  border-color: #999; 
+  border-width: 1px 0 1px 0; 
+  border-radius: 49px; 
+}
+
+
+
+
+
+  /*facebook button*/
+					.fa {
+		  padding: 5px;
+		  font-size: 20px;
+		  width: 30px;
+		  height:30px;
+		  text-align: center;
+		  
+		  margin: 8px 7px;
+		  
+		}
+
+		.fa:hover {
+			opacity: 0.7;
+		}
+
+		.fa-facebook {
+		  background: #3B5998;
+		  color: white;
+		}
+
+
+
+
+
+
+
+
+
+h1 {
+  font-family: 'Cinzel', serif;
+  font-size: 5.0em;
+  color: #111;
+  margin: 10px;
+  padding: 10px;
+  max-width: 900px;
+  margin: auto;
+  
+}
+
+/**********Main Image***********/
+.img-align {
+  display: block;
+  margin: 0px auto;
+}
+
+.main {
+  width: 512px;
+  height: 288px;
+}
+
+
+
+
+
+/*******paragraph image********/
+.smaller-img {
+  width: 250px;
+  height: 175px;
+  float: right;
+  padding: 0px 20px 20px 20px;
+  margin-left: 20px;
+}
+
+
+
+
+@font-face {
+    font-family: papyrus;
+    src: url(fonts/papyrus); format('truetype');
+	
+}
+
+
+div{
+font-family: Papyrus;
+font-weight: bold;
+font-size: 110%;}
+
+
+
+				
+				.navbar  {
+    margin-bottom: 0;
+}
+
+
+/*background fixed image*/
+section {
+  width: 100%;
+  height: 100%;
+  background-position:50% 100%;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom:0%;
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+section:nth-of-type(1) {
+  background-image: url('images/treepath.jpg')
+}
+
+
+/* For width 400px and larger: */
+@media only screen and (min-width: 400px) {
+    section { 
+        background-image: url('images/treepath.jpg'); 
+    }
+}
+/* For width 400px and smaller: */
+@media only screen and (max-width: 100px) {
+    section { 
+        background-image: url('images/treepath.jpg'); 
+		background-size: 50%;
+    }
+}
+/*end fixed image*/
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: papyrus;
+    src: url(fonts/papyrus); format('truetype');
+	
+}
+
+
+div{
+font-family: Papyrus;
+font-weight: bold;
+font-size: 110%;}
+
+
+
+				
+				.navbar  {
+    margin-bottom: 0;
+	
+}
+
+
+
+
+
+
+topnavbar {
+    margin: 0;
+}
+#topnavbar.affix {
+    position: absolute;
+    top: 0;
+    width: 100%;
+	
+	
+	
+}
+
+#banner {
+     background-color: #adad85;
+	 width: 100%;
+	 
+}
+img{
+ margin: center;
+    width: 14%;
+	  display: block;
+    margin-left: auto;
+    margin-right: auto; 
+   
+    padding: 2px;}
+	
+
+	
+	.text-center {
+  font-family: "times new roman";
+  color: white;
+  font-weight: normal;
+  font-size:18px;
+  padding-top:0.5px;
+  line-height: 2;
+   margin-left: auto;
+  margin-right: auto;
+  max-width:85%;
+  text-align: center;
+}
+
+
+
+
+
+.main-body {
+
+  background-color: #333;
+  margin-left: auto;
+  margin-top: 2%;
+  margin-right: auto;
+  max-width: 100%;
+  margin-bottom: 2%;
+  border-color: white;
+  border-width: 2px;
+  border-style: groove;
+  
+}
+
+
+
+
+
+
+  /*image gallery */
+h1{
+  font-family: papyrus;
+  font-size:50px;
+  text-align:center;
+  color:white;
+  font-weight: bold;
+  padding:1%;
+}
+#gallery{
+  -webkit-column-count:3;
+  -moz-column-count:3;
+  column-count:3;
+  
+  -webkit-column-gap:20px;
+  -moz-column-gap:20px;
+  column-gap:20px;
+}
+@media (max-width:1200px){
+  #gallery{
+  -webkit-column-count:3;
+  -moz-column-count:3;
+  column-count:3;
+    
+  -webkit-column-gap:20px;
+  -moz-column-gap:20px;
+  column-gap:20px;
+}
+}
+@media (max-width:800px){
+  #gallery{
+  -webkit-column-count:4;
+  -moz-column-count:4;
+  column-count:4;
+    
+  -webkit-column-gap:20px;
+  -moz-column-gap:20px;
+  column-gap:20px;
+}
+}
+@media (max-width:600px){
+  #gallery{
+  -webkit-column-count:3;
+  -moz-column-count:3;
+  column-count:3;
+  
+    -webkit-column-gap:20px;
+  -moz-column-gap:20px;
+  column-gap:20px;
+}  
+}
+.card{
+  width:100%;
+  height:auto;
+  margin: 4% auto;
+  
+  cursor: pointer;
+}
+.modal-img,.model-vid{
+  width:100%;
+  height:auto%;
+ 
+}
+.modal-body{
+  padding:1px;
+}
+/*image gallery end*/
+
+
+
+
+
+
+
+
+
+input.MyButton {
+width: 200px;
+padding: 20px;
+cursor: pointer;
+font-weight: bold;
+font-size: 100%;
+background: #f2ff63;
+color: #111;
+border: 1px solid #3366cc;
+border-radius: 10px;
+}
+input.MyButton:hover {
+color: #111;
+background: #abff62;
+border: 1px solid #fff;
+}
+
+
+  </style>
+</head>
+<body>
+
+										<div class='slider'>
+							  <div class='slide1' style="font-family:arial; color:black;">Your first Reiki Session is Free!</div>
+							  <div class='slide2' style="font-family:arial; color:black;">Monday Meditation Sessions are <b>Free</b> - <i>7pm to 9pm</i></div>
+							  <div class='slide3' style="font-family:arial; color:black;">Certified Reiki Master - Spiritual Guide</div>
+							</div>
+
+
+					 <div class="container" id="banner">
+						  <div class="row">
+							 <img src="images/croppedhutOG.jpg" class="logo">
+						  </div>
+						</div>
+
+
+								<nav class="navbar navbar-inverse">
+								<div class="container-fluid">
+								  <div class="navbar-header">
+								  
+								
+	  								<!-- Add font awesome icons -->
+									<a href="https://www.facebook.com/profile.php?id=2005495783053495&ref=br_rs" class="fa fa-facebook"></a>
+								  
+									
+										
+								
+								
+									  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>  
+										</button>
+									  
+									  <a class="navbar-brand" href="index.html">The Healing Hut</a>
+									  </div>
+									<div class="collapse navbar-collapse" id="myNavbar">
+									<ul class="nav navbar-nav">
+										<li class="" style="align:right;"><a href="index.html">Home</a></li>
+										<li class="dropdown">
+										  <a class="dropdown-toggle" data-toggle="dropdown" href="#">About <span class="caret"></span></a>
+										  <ul class="dropdown-menu">
+											<li><a href="mystory.html">MyStory</a></li>
+											<li><a href="aboutus.html">About us</a></li>
+											<li><a href="credits.html">Credits</a></li>
+										  </ul>
+										</li>
+										<li class="dropdown">
+										  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Services <span class="caret"></span></a>
+										  <ul class="dropdown-menu">
+										  <li><a href="pricing.html">pricing</a></li>
+											<li><a href="reiki.html">Reiki</a></li>
+											<li><a href="soundhealing.html">Sound healing</a></li>
+										  </ul>
+										</li>
+										<li class="dropdown">
+										  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Media <span class="caret"></span></a>
+										  <ul class="dropdown-menu">
+											<li><a href="photos.html">Photos</a></li>
+											<li><a href="#">Videos</a></li>
+										  </ul>
+										</li>
+										<li class="dropdown">
+										  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Qualifications <span class="caret"></span></a>
+										  <ul class="dropdown-menu">
+											<li><a href="testimonials.html">Testimonials</a></li>
+											<li><a href="certification.html">Certification</a></li>
+										  </ul>
+										</li>
+										<li class="dropdown">
+										  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Community <span class="caret"></span></a>
+										  <ul class="dropdown-menu">
+										<li><a href="meditation.html">Meditation</a></li>
+											<li><a href="yourself.html">What you can do</a></li>
+											<li><a href="chakras.html">Chakra Chart</a></li>
+										  </ul>
+										</li>
+										
+										<li class="" ><a href="contact.html">Contact</a></li>
+									</div>
+										  </div>
+										 </nav>
+	
+	
+	
+	
+	<!----------HEADER------------->
+	
+	
+	
+
+									<section>
+								<div class="container-fluid">
+
+								<div class="main-body" style="background-color:rgba(9, 9, 9, 0.7);">
+
+								<div class="container-bg">
+
+								</div>
+
+
+								<!-----------BODY TEXT----------->
+								<div class="body-text text-center" >
+								<h1 style="font-size: 40px; font-family:papyrus; font-weight: bold; color: white;" > ~Your Self Journey~ </h1>
+								<h1 style="font-size: 25px; color:yellow; font-family:papyrus; font-weight: bold; " > ~How to get started and educate yourself~</p><br> </h1>
+
+								<h1 style="font-size: 30px; font-family:papyrus; font-weight: bold; color: white;" > ~Who this section is for~ </h1>
+
+								<p style=" color: white; font-weight: normal; line-height:27px"> &nbsp; &nbsp; &nbsp; &nbsp; This page is for those who are not near my practice, unable to travel, or are simply
+								unsure about this area of self-healing and enlighenment. If you feel intimidated, or feel this is something you want to go after alone, The resources I am about to provide
+								will get you one step closer to achieving a better understanding of yourself and the world around you <i> for free </i><br><br>
+								I will explain topics such as <i> Smudging, Chakras, Herbs, Crystals, Breathing Techniques, and personal resources </i> that have helped me. I hope it helps you too. However, I 
+								can not stress enough how important it is to practice, educate, and grow daily. Meditating or practicing once a week for 5 minutes is not efficient enough to achieve personal enlighenment.
+								I understand Life can get in the way sometime. These resources are for those who may have important and stressful lifestyles, but are serious to set aside time and schedule to help themselves grow.
+								
+								<p style="font-size: 20px; color:yellow; font-family:papyrus;  ">"<i>listening to the greatful dead in your Bob Marley shirt, and bragging to your friends about how "woke" you are, Is not effective"</i></p>
+								 </p>
+
+								 <br>
+								<hr class="style18">
+								</div>
+
+								<div class="body-text text-center" >
+								<h1 style="font-size: 30px; font-family:papyrus; font-weight: bold; color: white;" > ~Breathing Techniques~ </h1>
+								<h1 style="font-size: 20px; color:yellow; font-family:papyrus; font-weight: bold; " > ~The first line of defense for a calmer state~</p><br> </h1>
+
+
+
+								<p style=" color: white; font-weight: normal; line-height:27px"> &nbsp; &nbsp; &nbsp; &nbsp; it only takes 3 good, powerful, dedicated, full breaths to regain your 
+								awareness, eliminate scatter brain, and eliminate anxiety.<br>
+								We often take breathing for granted. It's just something us as humans do 24/7. But, the next time you have a moment where you actually notice yourself breathing, really
+								analyze it. Sometimes, people are fearful when they notice they are breathing. They begin to breath and then notice their heart beat. For some, this can cause a few moments
+								of anxiety. <br>
+								&nbsp; &nbsp; &nbsp; &nbsp; If this has happened to you, or you are experiencing it, stop and listen. Why should you be affraid of your self? These bodily functions happen everyday.
+								When this happens to you, just breath. You were already doing it before you noticed it. This is your body, you are alive. You are a living, breathing, functioning, human being.
+								Really, reflect on that. 
+								</p>
+								<li  style="font-size: 18px; font-family:'times new roman'; color:white; background-color:rgba(9, 9, 9, 0.6);" >If possible, go to a place you wont be bothered.</li><br>
+						  <li  style="font-size: 18px; font-family:'times new roman'; color:white;background-color:rgba(9, 9, 9, 0.6);" >If you can't be alone, focus and go somewhere in your mind. A peaceful, comfortable place.</li><br>
+						  <li  style="font-size: 18px; font-family:'times new roman'; color:white;background-color:rgba(9, 9, 9, 0.6);" >When you inhale, direct your inhale with your love energy into your body.(love yourself)</li><br>
+						  <li  style="font-size: 18px; font-family:'times new roman'; color:white;background-color:rgba(9, 9, 9, 0.6);" >When you exhale, direct the tension out.(imagine your worries exiting)</li><br><br>
+							<li  style="font-size: 18px; font-family:'times new roman'; color:white;background-color:rgba(9, 9, 9, 0.6);" >A good rhythm is IN for 4 seconds/ OUT for for seconds.</li><br><br>
+							
+							<hr class="style18">
+							</div>
+							
+							
+							
+								 
+								 <div class="body-text text-center" >
+								 <h1 style="font-size: 30px; font-family:papyrus; font-weight: bold; color: white;" > ~Chakra~ </h1>
+								 <h1 style="font-size: 20px; color:yellow; font-family:papyrus; font-weight: bold; " > ~The most misunderstood word in spiritual enlighenment~</p><br> </h1>
+								<p style=" color: white; font-weight: normal; line-height:27px"> &nbsp; &nbsp; &nbsp; &nbsp; It is perhaps the most overused word among spiritual enlighenment. Primarily because it is misused by younger adults or teens who have no
+								real knowledge of enlightenment. They hear the word on television and think it is some magical word and claim they are "woke". On the other hand, those who do not beleive in any sort of spiritual healing, or faith based practice tend to
+								ridicule, bash, or deny it. Those two combined, make for the term Chakra being a gimic or satire.</p><br>
+								
+								<p style="font-size: 20px; color:yellow; font-family:papyrus;">"<i>Wearing that hemp bracelet you bought at the dollar store, meditating for 10 minutes and then telling your friends your chakras are aligned, is not effective.    "</i></p>
+								 </p><br>
+								 
+								 <p style=" color: white; font-weight: normal; line-height:27px"> &nbsp; &nbsp; &nbsp; &nbsp; The Chakras are in other words, energy portals or channels where energy flows
+								 through. There are 108 in the human body, but there are only 7 major chakras that are essential to you. They are located from the top of your head, down your spine, and too your feet.<br>
+								 Each Chakra corresponds to different organs and functions within the body. Too much, or lack of energy can cause malfunctioning in the Chakras, which in turn causes malfunctioning 
+								 in the body.<br>
+								 The stress you deal with and traumas are the main cause of chakra blockages. There are simple ways to find where your blockages are and simple techniques you can use to get layers
+								 of these blockages out.<br>
+								 We are all responsible for healing ourselves and if done correctly with dedication and commitment, then you will be able to fully heal yourself from anything over time.<br>
+								 </p>
+								 
+								
+
+
+
+											 
+											<div id="gallery" class="container-fluid" style="padding:5px;">  
+											  <img src="images/chakracurt1.jpg"   " class="card img-responsive">
+											  </div>
+											  
+											  <div id="myModal" class="modal fade" role="dialog" >
+											  <div class="modal-dialog">
+												<!-- Modal content-->
+												<div class="modal-content" style="margin: 20px;">
+												  <div class="modal-body">
+												</div >
+												</div >
+												</div >
+											</div>
+									
+										
+											
+											
+				
+<br>
+<hr class="style18">
+<br>
+	
+								<h1 style="font-size: 30px; font-family:papyrus; font-weight: bold; color: white;" > ~Chakra Tuning~ </h1>
+								 <h1 style="font-size: 20px; color:yellow; font-family:papyrus; font-weight: bold; " > ~Ways to Tune~</p><br> </h1>
+								<p style=" color: white; font-weight: normal; line-height:27px"> &nbsp; &nbsp; &nbsp; &nbsp; The easiest way to tune to a specific
+								Chakra, would be to target whichever Chakra you are intending to work on during meditation.(Transcendental)<br>
+								&nbsp; &nbsp; &nbsp; &nbsp; Image the color of the Chakra in your mind and imagine a light beam shining through it, washing it clean.
+								With every exhale, make the sound that corresponds to the Chakra you are working on. Do this for 3 to 5 minutes per Chakra, unless your intuition guides
+								you to stay longer while focussing on a specific area.
+								
+								</p>				
+											
+											
+											
+											<h1 style="font-size: 20px; color:yellow; font-family:papyrus; font-weight: bold; " >  Click  on the button below for an in depth Chart on the Chakras to utilize the information I have mentioned.</p>
+												</h1>
+											
+													<form>
+												<input class="MyButton" type="button" value="Chakra Chart" onclick="window.location.href='chakras.html'" />
+												</form>
+												
+												
+												
+												
+												
+												<br>
+								<hr class="style18">
+								<br>
+	
+								<h1 style="font-size: 30px; font-family:papyrus; font-weight: bold; color: white;" > ~Smudging~ </h1>
+								 <h1 style="font-size: 20px; color:yellow; font-family:papyrus; font-weight: bold; " > ~What smudging is and how to cleanse~</p><br> </h1>
+								<p style=" color: white; font-weight: normal; line-height:27px"> &nbsp; &nbsp; &nbsp; &nbsp; <i>Smudging</i> is an important technique or ceremony
+								that has been going on for centuries, if not ions. Some herbs used are primarily <i> Sage, Cedar, and Palo Santo</i> but there are a ton of other herbs or spices that
+								 can do wonders too. <i>(Basil, Yerba Santa, Rosemary </i>and more). Smudging involves burning certain herbs to create a smoke that purifies your environment of negative energies.
+								Smudging is also a great way to cleanse cystals or belongings that you find of personal significance. Keeping a strong healthy environment makes it easier to keep
+								a healthy strong aura.</p>
+								<br>
+								<h1 style="font-size: 20px; color:yellow; font-family:papyrus; font-weight: bold; " > <i>"Your aura is your energy body. It is your protection
+								or shield to negative energy, illness, peace, etc.."</i> </h1><br>
+								
+								<h1 style="font-size: 30px; font-family:papyrus; font-weight: bold; color: white;" > ~How to Smudge~ </h1>
+								 <h1 style="font-size: 20px; color:yellow; font-family:papyrus; font-weight: bold; " > ~Smudging with herbs~</h1>
+								 <p style=" color: white; font-weight: normal; line-height:27px"> &nbsp; &nbsp; &nbsp; &nbsp;The best way to smudge without getting ashes everywhere is by selecting the
+								 herbs you wish to use and break them into smaller pieces. Select the herbs and place them in front of you. The process of smudging is a ceremony and should be treated as such. By preparing your herbs this way,
+								it shows respect to these herbs for what they are about to be used for.
+								Once you have your herbs selected and your ceremonial surface ready, break your herbs into smaller pieces and place them in a metal bowl, or any bowl you wish to use. 
+								<br><br>(make it a habbit to use the same bowl as the connection between your herbs and the bowl will build a connection over time. Similar to a routine.) <br><br>
+								The process varies from person to person. I Mix up the herbs and set fire to them. I use a metal singing bowl and use a mini torch. 
+								A friend of mine mixes his herbs in a bowl and then transfers the contents into a small metal cauldron.
+								Once you have a nice flame or the herbs are burning bright with ember, you will need something to <i> waft </i> the smoke to areas where you wish to cleanse.
+								I use a feather, but this is another aspect where it can vary from person to person. Use your hand to waft the smoke, or something that has significance to you.<br>
+								</p>
+								
+								
+								
+								
+												<br>
+								<hr class="style18">
+								
+	
+								<h1 style="font-size: 30px; font-family:papyrus; font-weight: bold; color: white;" > ~Smudging with incence~ </h1>
+								 <h1 style="font-size: 20px; color:yellow; font-family:papyrus; font-weight: bold; " > ~What the smudge?~</p><br> </h1>
+								<p style=" color: white; font-weight: normal; line-height:27px"> &nbsp; &nbsp; &nbsp; &nbsp; Perhaps an easier way to smudge if herbs are not available to you is by using incense. They are widely available and
+								come in various aromas. The process is similar to using herbs, but easier to clean up. Burn the incence and walk around your environment to cleanse away negative energies. To cleanse a
+								room, waft the smoke from corner to corner. Recite a chant or phrase such as "I am intending to use this smoke to banish evil from this room". Reciting a phrase like this gives
+								more meaning to your actions. It builds a connection between you, the incense and the end result (cleansing the room). Without it, your just simply wafting smoke around for no reason, except for having the room smell good.
+								Cleansing crystals or significant items is the same way. If you wish to smudge a rose quartz crystal to associate "love or carring aspects", you would circle it with the incense and recite a phrase like, "I intend to use this stone
+								for an amplified loving and calming effect on myself, or whoever comes in contact with it". Saying a phrase while you are cleaning or smudging the Rose Quartz Crystal is building a connection between you and the crystal.<br>
+								</p>
+								<br>
+								
+											<br>
+								<hr class="style18">
+								
+	
+								<h1 style="font-size: 30px; font-family:papyrus; font-weight: bold; color: white;" > ~Anxiety~ </h1>
+								 <h1 style="font-size: 20px; color:yellow; font-family:papyrus; font-weight: bold; " > ~Tips for anxiety and scatter brain~</p><br> </h1>
+								
+								 <h1 style="font-size: 20px; color:yellow; font-family:papyrus; font-weight: bold; " > Anxiety - the desire to escape the present moment</p><br> </h1>
+								
+								
+								<p style=" color: white; font-weight: normal; line-height:27px"> &nbsp; &nbsp; &nbsp; &nbsp; During the begining stages of my journey, I was filled with
+								anxiety and had scatter brain daily. This was the most effective technique that helped me eliminate both of these issues and beyond.
+								This is the most important, most used, and most useful tip I could possibly give to anyone. It applies to anyone who wants to help themselves become a better, more healthy and happy version
+								of themselves. It is a simple but powerful breathing technique I use during my meditation, but it has become a natural soul cleanser to me, like eye lids to the eyes. I don't even realize
+								I'm doing it anymore because of how often I am doing it, even without meditating. It is important to know that you can use breathing techniques to calm yourself and eliminate anxiety.
+								Refer back to my previous tips on breathing. It truly is the first line of defense against anxiety, scatter brain, and stress related illness.
+								</p>
+								<br>
+								
+								
+												
+												
+												
+					
+																			
+											
+								
+								
+								
+								
+								</div>
+								
+
+
+
+	 
+	 
+</div>
+
+
+<a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, 
+BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, 
+Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px;" 
+href="https://unsplash.com/@szmigieldesign?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" 
+target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Lukasz Szmigiel">
+<span style="display:inline-block;padding:2px 3px;"><svg xmlns="http://www.w3.org/2000/svg" 
+style="height:12px;width:auto;position:relative;vertical-align:middle;top:-1px;fill:white;" 
+viewBox="0 0 32 32"><title>
+</title><path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7
+.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 
+0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z">
+</path></svg></span><span style="display:inline-block;padding:2px 3px;">Lukasz Szmigiel</span></a>
+  </section>
+  
+
+
+
+													
+								
+	
+
+ 
+ 
+																			<script> $('#topnavbar').affix({
+																				offset: {
+																					top: $('#banner').height()
+																				}   
+																			});
+																			</script>
+
+
+
+
+																			<script>
+																			$(document).ready(function(){
+																			  $("img").click(function(){
+																			  var t = $(this).attr("src");
+																			  $(".modal-body").html("<img src='"+t+"' class='modal-img'>");
+																			  $("#myModal").modal();
+																			});
+
+																			
+																			});//EOF Document.ready
+																			</script>
+
+
+
+</body>
+</html>

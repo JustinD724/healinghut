@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Global Site Tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-107938094-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+gtag('set', {'user_id': 'USER_ID'}); // Set the user ID using signed-in user_id.
+  gtag('config', 'UA-107938094-1');
+</script>
+  <title>Healing Hut</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+  <style>
+  
+  /*very top carousel advertisement*/
+		  .slider {
+		  background-color: #fffbe2;
+		  font-size:11px;
+		  text-align: center;
+		  line-height:40px;
+		  max-width: 100%;
+		  height: 40px;
+		  margin: 0px auto;
+		  position: relative;
+		}
+		.slide1,.slide2,.slide3,.slide4,.slide5 {
+		  position: absolute;
+		  width: 100%;
+		  height: 100%;
+		}
+		.slide1 {
+		  background: url(.jpg)no-repeat center;
+			  background-size: cover;
+			animation:fade 8s infinite;
+		-webkit-animation:fade 8s infinite;
+
+		} 
+		.slide2 {
+		  background: url(.jpeg)no-repeat center;
+			  background-size: cover;
+			animation:fade2 8s infinite;
+		-webkit-animation:fade2 8s infinite;
+		}
+		.slide3 {
+			background: url(.jpg)no-repeat center;
+			  background-size: cover;
+			animation:fade3 8s infinite;
+		-webkit-animation:fade3 8s infinite;
+		}
+		@keyframes fade
+		{
+		  0%   {opacity:1}
+		  33.333% { opacity: 0}
+		  66.666% { opacity: 0}
+		  100% { opacity: 1}
+		}
+		@keyframes fade2
+		{
+		  0%   {opacity:0}
+		  33.333% { opacity: 1}
+		  66.666% { opacity: 0 }
+		  100% { opacity: 0}
+		}
+		@keyframes fade3
+		{
+		  0%   {opacity:0}
+		  33.333% { opacity: 0}
+		  66.666% { opacity: 1}
+		  100% { opacity: 0}
+		}
+/*top banner advertisement end*/
+
+
+
+
+
+
+hr.style18 { 
+  height: 30px; 
+  margin-left:5%;
+  margin-right:5%;
+  border-style: solid; 
+  border-color: #999; 
+  border-width: 1px 0 0 0; 
+  border-radius: 40px; 
+} 
+hr.style18:before { 
+  display: block; 
+  content: ""; 
+  height: 30px; 
+  margin-top: -31px; 
+  border-style: solid; 
+  border-color: #999; 
+  border-width: 1px 0 1px 0; 
+  border-radius: 49px; 
+}
+
+
+
+
+
+  /*facebook button*/
+					.fa {
+		  padding: 5px;
+		  font-size: 20px;
+		  width: 30px;
+		  height:30px;
+		  text-align: center;
+		  
+		  margin: 8px 7px;
+		  
+		}
+
+		.fa:hover {
+			opacity: 0.7;
+		}
+
+		.fa-facebook {
+		  background: #3B5998;
+		  color: white;
+		}
+
+
+
+
+
+
+
+
+
+h1 {
+  font-family: 'Cinzel', serif;
+  
+  font-size: 5.0em;
+  color: #111;
+  margin: 10px;
+  padding: 10px;
+  max-width: 900px;
+  margin: auto;
+  
+}
+
+/**********Main Image***********/
+.img-align {
+  display: block;
+  margin: 0px auto;
+}
+
+.main {
+  width: 512px;
+  height: 288px;
+}
+
+
+
+
+
+/*******paragraph image********/
+.smaller-img {
+  width: 250px;
+  height: 175px;
+  float: right;
+  padding: 0px 20px 20px 20px;
+  margin-left: 20px;
+}
+
+
+
+
+@font-face {
+    font-family: papyrus;
+    src: url(fonts/papyrus); format('truetype');
+	
+}
+
+
+div{
+font-family: Papyrus;
+font-weight: bold;
+font-size: 110%;}
+
+
+
+				
+				.navbar  {
+    margin-bottom: 0;
+}
+
+
+/*background fixed image*/
+section {
+  width: 100%;
+  height: 100%;
+  background-position:50% 100%;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom:0%;
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+section:nth-of-type(1) {
+  background-image: url('images/stackrocks2.jpg')
+}
+
+
+/* For width 400px and larger: */
+@media only screen and (min-width: 400px) {
+    section { 
+        background-image: url('images/stackrocks2.jpg'); 
+    }
+}
+/* For width 400px and smaller: */
+@media only screen and (max-width: 100px) {
+    section { 
+        background-image: url('images/stackrocks2.jpg'); 
+		background-size: 50%;
+    }
+}
+/*end fixed image*/
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: papyrus;
+    src: url(fonts/papyrus); format('truetype');
+	
+}
+
+
+div{
+font-family: Papyrus;
+font-weight: bold;
+font-size: 110%;}
+
+
+
+				
+				.navbar  {
+    margin-bottom: 0;
+	
+}
+
+
+
+
+
+
+topnavbar {
+    margin: 0;
+}
+#topnavbar.affix {
+    position: absolute;
+    top: 0;
+    width: 100%;
+	
+	
+	
+}
+
+#banner {
+     background-color: #adad85;
+	 width: 100%;
+	 
+}
+img{
+ margin: center;
+    width: 14%;
+	  display: block;
+    margin-left: auto;
+    margin-right: auto; 
+   
+    padding: 2px;}
+	
+
+	
+	.text-center {
+  font-family: "times new roman";
+  color: white;
+  font-weight: normal;
+  font-size:18px;
+  padding-top:0.5px;
+  line-height: 2;
+   margin-left: auto;
+  margin-right: auto;
+  max-width:85%;
+  text-align: center;
+}
+
+
+
+
+
+.main-body {
+
+  background-color: #333;
+  margin-left: auto;
+  margin-top: 2%;
+  margin-right: auto;
+  max-width: 100%;
+  margin-bottom: 2%;
+  border-color: white;
+  border-width: 2px;
+  border-style: groove;
+  
+}
+
+
+
+
+  </style>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KGDQHH8"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+										<div class='slider'>
+							  <div class='slide1' style="font-family:arial; color:black;">Your first Reiki Session is Free!</div>
+							  <div class='slide2' style="font-family:arial; color:black;">Monday Meditation Sessions are <b>Free</b> - <i>7pm to 9pm</i></div>
+							  <div class='slide3' style="font-family:arial; color:black;">Certified Reiki Master - Spiritual Guide</div>
+							</div>
+
+
+ <div class="container" id="banner">
+      <div class="row">
+         <img src="images/croppedhutOG.jpg" class="logo">
+      </div>
+    </div>
+
+
+								<nav class="navbar navbar-inverse">
+								<div class="container-fluid">
+								  <div class="navbar-header">
+								  
+								
+	  								<!-- Add font awesome icons -->
+									<a href="https://www.facebook.com/profile.php?id=2005495783053495&ref=br_rs" class="fa fa-facebook"></a>
+								  
+									
+										
+								
+								
+									  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>  
+										</button>
+									  
+									  <a class="navbar-brand" href="index.html">The Healing Hut</a>
+									  </div>
+									<div class="collapse navbar-collapse" id="myNavbar">
+									<ul class="nav navbar-nav">
+										<li class="" style="align:right;"><a href="index.html">Home</a></li>
+										<li class="dropdown">
+										  <a class="dropdown-toggle" data-toggle="dropdown" href="#">About <span class="caret"></span></a>
+										  <ul class="dropdown-menu">
+											<li><a href="mystory.html">MyStory</a></li>
+											<li><a href="aboutus.html">About us</a></li>
+											<li><a href="credits.html">Credits</a></li>
+										  </ul>
+										</li>
+										<li class="dropdown">
+										  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Services <span class="caret"></span></a>
+										  <ul class="dropdown-menu">
+										  <li><a href="pricing.html">pricing</a></li>
+											<li><a href="reiki.html">Reiki</a></li>
+											<li><a href="soundhealing.html">Sound healing</a></li>
+										  </ul>
+										</li>
+										<li class="dropdown">
+										  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Media <span class="caret"></span></a>
+										  <ul class="dropdown-menu">
+											<li><a href="photos.html">Photos</a></li>
+											<li><a href="#">Videos</a></li>
+										  </ul>
+										</li>
+										<li class="dropdown">
+										  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Qualifications <span class="caret"></span></a>
+										  <ul class="dropdown-menu">
+											<li><a href="testimonials.html">Testimonials</a></li>
+											<li><a href="certification.html">Certification</a></li>
+										  </ul>
+										</li>
+										<li class="dropdown">
+										  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Community <span class="caret"></span></a>
+										  <ul class="dropdown-menu">
+										<li><a href="meditation.html">Meditation</a></li>
+											<li><a href="yourself.html">What you can do</a></li>
+											<li><a href="chakras.html">Chakra Chart</a></li>
+										  </ul>
+										</li>
+										
+										<li class="" ><a href="contact.html">Contact</a></li>
+									</div>
+										  </div>
+										 </nav>
+	
+	
+	
+	
+	<!----------HEADER------------->
+	<section>
+<div class="container-fluid">
+
+<div class="main-body" style="background-color:rgba(9, 9, 9, 0.7);">
+
+<div class="container-bg">
+
+</div>
+
+
+<!-----------BODY TEXT----------->
+<div class="body-text text-center" >
+<h1 style="font-size: 40px; font-family:papyrus; font-weight: bold; color: white;" > ~Meditation~ </h1>
+<h1 style="font-size: 25px; color:yellow; font-family:papyrus; font-weight: bold; " > ~A <b>Free</b> meditation session is available every monday from 7pm-9pm~</p><br> </h1>
+
+<h1 style="font-size: 30px; font-family:papyrus; font-weight: bold; color: white;" > ~How Meditation can help~ </h1>
+
+<p style=" color: white; font-weight: normal; line-height:27px">Meditation is a practice where an individual operates or trains the mind or induces 
+a mode of consciousness, either to realize some benefit or for the mind to simply acknowledge its content without becoming identified 
+with that content, or as an end in itself. The term meditation refers to a broad variety of practices that includes techniques designed 
+to promote relaxation, build internal energy or life force (qi, ki, prana, etc.) and develop compassion, love, patience, generosity, 
+and forgiveness. A particularly ambitious form of meditation aims at effortlessly sustained single-pointed concentration meant to 
+enable its practitioner to enjoy an indestructible sense of well-being while engaging in any life activity.  </p>
+ </div>
+
+ <br>
+<hr class="style18">
+ 
+ 
+ <div class="body-text text-center">
+  <h1 style="font-size: 200%; font-family:papyrus; color:white; font-weight: bold;" > ~What to expect durring community meditation at the Healing Hut ~ </h1>
+<p style="line-height:27px"> 
+Meditation sessions are layed back, fun, and social experiences for anyone looking to relax and focus on themselves. With the hectic lifestyles
+and stress present in our day to day lives, These sessions are a way to escape that matrix and <i>tune</i> to your natural frequency.<br>
+These free sessions are an excellent way for us to meet and get to know eachother. I am extatic to meet you and build powerful energy.<br>
+
+<li  style="font-size: 18px; font-family:'times new roman'; color:white; background-color:rgba(9, 9, 9, 0.6);" >Everyone is free to come and go as they please.</li><br>
+  <li  style="font-size: 18px; font-family:'times new roman'; color:white;background-color:rgba(9, 9, 9, 0.6);" >Make your self as comfortable as possible, I will supply a comfortable environment with couches and chairs.</li><br>
+  <li  style="font-size: 18px; font-family:'times new roman'; color:white;background-color:rgba(9, 9, 9, 0.6);" >There will always be bottled water provided for free</li><br>
+  <li  style="font-size: 18px; font-family:'times new roman'; color:white;background-color:rgba(9, 9, 9, 0.6);" >Be as relaxed as you can because the more relaxed you are, the easier it is for the energy to flow through you.</li><br><br>
+    <li  style="font-size: 18px; font-family:'times new roman'; color:white;background-color:rgba(9, 9, 9, 0.6);" >Healing sound waves will be provided. This ensures relaxing tones to synchronize everyone to the same level.</li><br><br>
+</div>
+
+
+</p>
+
+ 
+ <hr class="style18">
+ 
+ 
+ <div class="body-text text-center">
+  <h1 style="font-size: 200%; font-family:papyrus; color:white; font-weight: bold;" > ~Thoughts on Meditation~ </h1>
+<p style="line-height:27px"> 
+<i> "The most Crucial of the topics that I focus on is meditation. I can not express enough how meditation is the most important form of </b> self love practice."</i><br><br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Whether it's in the form of yoga, transcendental, musical, reading, writing, or art, it is by far the healthiest thing you can do for yourself and your environment simultaneously.
+When you meditate, you are filling your body up with loving light, spiritual life energy and are at the same time amplifying the spiritual energy on the planet.
+you are connected to everything. The vibration you cause in your living room has an effect on the entire planet, galaxy, or universe.
+
+
+</p>
+ 
+ </div>
+ 
+ 
+  </section>
+  </div>
+
+
+
+													
+								
+	
+
+ 
+ 
+<script> $('#topnavbar').affix({
+    offset: {
+        top: $('#banner').height()
+    }   
+});
+</script>
+
+
+
+</body>
+</html>

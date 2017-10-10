@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Global Site Tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-107938094-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+gtag('set', {'user_id': 'USER_ID'}); // Set the user ID using signed-in user_id.
+  gtag('config', 'UA-107938094-1');
+</script>
+  <title>Healing Hut</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  
+  <style>
+  
+  
+  
+    /*image gallery */
+h1{
+  font-family: papyrus;
+  font-size:50px;
+  text-align:center;
+  color:white;
+  font-weight: bold;
+  padding:1%;
+}
+#gallery{
+  -webkit-column-count:4;
+  -moz-column-count:4;
+  column-count:4;
+  
+  -webkit-column-gap:20px;
+  -moz-column-gap:20px;
+  column-gap:20px;
+}
+@media (max-width:1200px){
+  #gallery{
+  -webkit-column-count:3;
+  -moz-column-count:3;
+  column-count:3;
+    
+  -webkit-column-gap:20px;
+  -moz-column-gap:20px;
+  column-gap:20px;
+}
+}
+@media (max-width:800px){
+  #gallery{
+  -webkit-column-count:4;
+  -moz-column-count:4;
+  column-count:4;
+    
+  -webkit-column-gap:20px;
+  -moz-column-gap:20px;
+  column-gap:20px;
+}
+}
+@media (max-width:600px){
+  #gallery{
+  -webkit-column-count:3;
+  -moz-column-count:3;
+  column-count:3;
+  
+    -webkit-column-gap:20px;
+  -moz-column-gap:20px;
+  column-gap:20px;
+}  
+}
+.card{
+  width:100%;
+  height:auto;
+  margin: 4% auto;
+  box-shadow:-5px 5px 15px #000;
+  cursor: pointer;
+}
+.modal-img,.model-vid{
+  width:100%;
+  height:auto%;
+ 
+}
+.modal-body{
+  padding:1px;
+}
+/*image gallery end*/
+
+
+
+
+
+  /*very top carousel advertisement*/
+		  .slider {
+		  background-color: #fffbe2;
+		  font-size:11px;
+		  text-align: center;
+		  line-height:40px;
+		  max-width: 100%;
+		  height: 40px;
+		  margin: 0px auto;
+		  position: relative;
+		}
+		.slide1,.slide2,.slide3,.slide4,.slide5 {
+		  position: absolute;
+		  width: 100%;
+		  height: 100%;
+		}
+		.slide1 {
+		  background: url(.jpg)no-repeat center;
+			  background-size: cover;
+			animation:fade 8s infinite;
+		-webkit-animation:fade 8s infinite;
+
+		} 
+		.slide2 {
+		  background: url(.jpeg)no-repeat center;
+			  background-size: cover;
+			animation:fade2 8s infinite;
+		-webkit-animation:fade2 8s infinite;
+		}
+		.slide3 {
+			background: url(.jpg)no-repeat center;
+			  background-size: cover;
+			animation:fade3 8s infinite;
+		-webkit-animation:fade3 8s infinite;
+		}
+		@keyframes fade
+		{
+		  0%   {opacity:1}
+		  33.333% { opacity: 0}
+		  66.666% { opacity: 0}
+		  100% { opacity: 1}
+		}
+		@keyframes fade2
+		{
+		  0%   {opacity:0}
+		  33.333% { opacity: 1}
+		  66.666% { opacity: 0 }
+		  100% { opacity: 0}
+		}
+		@keyframes fade3
+		{
+		  0%   {opacity:0}
+		  33.333% { opacity: 0}
+		  66.666% { opacity: 1}
+		  100% { opacity: 0}
+		}
+/*top banner advertisement end*/
+
+
+
+
+  /*facebook button*/
+					.fa {
+		  padding: 5px;
+		  font-size: 20px;
+		  width: 30px;
+		  height:30px;
+		  text-align: center;
+		  
+		  margin: 8px 7px;
+		  
+		}
+
+		.fa:hover {
+			opacity: 0.7;
+		}
+
+		.fa-facebook {
+		  background: #3B5998;
+		  color: white;
+		}
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  body {
+    background-image: url("images/pebbles.jpg");
+   background-size: auto;
+   height: 100%;
+   width: 100%;
+
+
+    background-repeat: repeat;
+}
+
+@font-face {
+    font-family: papyrus;
+    src: url(fonts/papyrus); format('truetype');
+	
+}
+
+
+div{
+font-family: Papyrus;
+font-weight: bold;
+font-size: 110%;}
+
+.story {
+ margin-left: 12%;
+ 
+  text-align: center;
+  
+  padding: 5px;
+  width: 75%;
+  height: auto;
+  font-weight: normal;
+  font-family: arial;
+  color: white;
+  
+}
+
+
+				
+				.navbar  {
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+topnavbar {
+    margin: 0;
+}
+#topnavbar.affix {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+#banner {
+     background-color: #adad85;
+	 width: 100%;
+	 
+}
+img{
+ margin: center;
+    width: 14%;
+	  display: block;
+    margin-left: auto;
+    margin-right: auto; 
+   
+    padding: 2px;}
+	
+
+	
+
+/*vid source httml*/
+ /*<!--<video class="card vid" controls>
+    <source src="" type="video/mp4">
+    </source>
+  </video>-->*/
+  */
+  
+
+  </style>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KGDQHH8"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+								<div class='slider'>
+							  <div class='slide1' style="font-family:arial;">Your first Reiki Session is Free!</div>
+							  <div class='slide2' style="font-family:arial;">Monday Meditation Sessions are <b>Free</b> - <i>7pm to 9pm</i></div>
+							  <div class='slide3' style="font-family:arial;">Certified Reiki Master - Spiritual Guide</div>
+							</div>
+
+
+
+
+ <div class="container" id="banner">
+      <div class="row">
+         <img src="images/croppedhutOG.jpg" class="logo">
+      </div>
+    </div>
+
+
+								<nav class="navbar navbar-inverse">
+								<div class="container-fluid">
+								  <div class="navbar-header">
+								  
+								
+	  								<!-- Add font awesome icons -->
+									<a href="https://www.facebook.com/profile.php?id=2005495783053495&ref=br_rs" class="fa fa-facebook"></a>
+								  
+									
+										
+								
+								
+									  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>  
+										</button>
+									  
+									  <a class="navbar-brand" href="index.html">The Healing Hut</a>
+									  </div>
+									<div class="collapse navbar-collapse" id="myNavbar">
+									<ul class="nav navbar-nav">
+										<li class="" style="align:right;"><a href="index.html">Home</a></li>
+										<li class="dropdown">
+										  <a class="dropdown-toggle" data-toggle="dropdown" href="#">About <span class="caret"></span></a>
+										  <ul class="dropdown-menu">
+											<li><a href="mystory.html">MyStory</a></li>
+											<li><a href="aboutus.html">About us</a></li>
+											<li><a href="credits.html">Credits</a></li>
+										  </ul>
+										</li>
+										<li class="dropdown">
+										  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Services <span class="caret"></span></a>
+										  <ul class="dropdown-menu">
+										  <li><a href="pricing.html">pricing</a></li>
+											<li><a href="reiki.html">Reiki</a></li>
+											<li><a href="soundhealing.html">Sound healing</a></li>
+										  </ul>
+										</li>
+										<li class="dropdown">
+										  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Media <span class="caret"></span></a>
+										  <ul class="dropdown-menu">
+											<li><a href="photos.html">Photos</a></li>
+											<li><a href="#">Videos</a></li>
+										  </ul>
+										</li>
+										<li class="dropdown">
+										  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Qualifications <span class="caret"></span></a>
+										  <ul class="dropdown-menu">
+											<li><a href="testimonials.html">Testimonials</a></li>
+											<li><a href="certification.html">Certification</a></li>
+										  </ul>
+										</li>
+										<li class="dropdown">
+										  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Community <span class="caret"></span></a>
+										  <ul class="dropdown-menu">
+										<li><a href="meditation.html">Meditation</a></li>
+											<li><a href="yourself.html">What you can do</a></li>
+											<li><a href="chakras.html">Chakra Chart</a></li>
+										  </ul>
+										</li>
+										
+										<li class="" ><a href="contact.html">Contact</a></li>
+									</div>
+										  </div>
+										 </nav>
+
+
+													
+								
+	
+										
+									<div id="gallery" class="container-fluid" style="padding:20px;">  
+									  <img src="images/chakracurt1.jpg" class="card img-responsive ">
+									  <img src="images/elephantclose.jpg" class="card img-responsive">
+									   <img src="images/elephantgrid.jpg" class="card img-responsive">
+									 
+									  <img src="images/crosssetup.jpg" class="card img-responsive">
+									  <img src="images/chakracurt2.jpg" class="card img-responsive">
+									  <img src="images/peacestone.jpg" class="card img-responsive">
+									  <img src="images/practice2.jpg" class="card img-responsive" >
+									  <img src="images/practice3.jpg" class="card img-responsive">
+									  <img src="images/practice7.jpg" class="card img-responsive">
+									  <img src="images/practice5.jpg" class="card img-responsive">
+									  <img src="images/practice6.jpg" class="card img-responsive">
+									  <img src="images/practice4.jpg" class="card img-responsive">
+									  <img src="images/unkgrid2.jpg" class="card img-responsive">
+									  <img src="images/unkgrid1.jpg" class="card img-responsive">
+									  <img src="images/purplerock.jpg" class="card img-responsive">
+									   <img src="images/elephantcolor.jpg" class="card img-responsive">
+									  <img src="images/moonsetup.jpg" class="card img-responsive">
+									  <img src="images/practice9.jpg" class="card img-responsive">
+									  <img src="images/crossarms.jpg" class="card img-responsive">
+									  <img src="images/elephantgreenhue.jpg" class="card img-responsive">
+									<img src="images/elephantpurple.jpg" class="card img-responsive">
+									  <img src="images/frontcross.jpg" class="card img-responsive">
+									  <img src="images/shadowgrid1.jpg" class="card img-responsive">
+									<img src="images/unkgridside.jpg" class="card img-responsive">
+									  <img src="images/warmcross.jpg" class="card img-responsive">
+									  <img src="images/bedtarb.jpg" class="card img-responsive">
+									<img src="images/bedtv.jpg" class="card img-responsive">
+									  <img src="images/certificate.jpg" class="card img-responsive">
+									  <img src="images/saltlamp.jpg" class="card img-responsive">
+									 <img src="images/plant1.jpg" class="card img-responsive">
+									  <img src="images/bedset1.jpg" class="card img-responsive">
+									</div>
+
+									<div id="myModal" class="modal fade" role="dialog" >
+									  <div class="modal-dialog">
+
+										<!-- Modal content-->
+										<div class="modal-content" style="margin: 32px;">
+										  <div class="modal-body">
+									 
+										  </div >
+										</div >
+
+									  </div >
+									</div>
+
+
+																			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+																			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+																			 <script> $('#topnavbar').affix({
+																				offset: {
+																					top: $('#banner').height()
+																				}   
+																			});
+																			</script>
+																			
+																			
+																			<script>
+																			$(document).ready(function(){
+																			  $("img").click(function(){
+																			  var t = $(this).attr("src");
+																			  $(".modal-body").html("<img src='"+t+"' class='modal-img'>");
+																			  $("#myModal").modal();
+																			});
+
+																			$("video").click(function(){
+																			  var v = $("video > source");
+																			  var t = v.attr("src");
+																			  $(".modal-body").html("<video class='model-vid' controls><source src='"+t+"' type='video/mp4'></source></video>");
+																			  $("#myModal").modal();  
+																			});
+																			});//EOF Document.ready
+																			</script>
+																																		
+
+
+
+</body>
+</html>
